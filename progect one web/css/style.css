@@ -1,0 +1,231 @@
+
+body{
+    background-image:url(/images/header-bg.jpg);
+    background-position:auto;
+    margin-bottom: 220px;
+    margin: 0;
+    padding: 0;
+}
+.one{
+    width: 100%;  
+    min-height: 100vh;
+}
+.one h1{
+    padding-left: 50px;
+    color:  rgba(89, 163, 102,0.7);
+    margin: 50px;
+    font-style: italic;
+    text-transform:capitalize;
+}
+
+.one nav{
+    direction: rtl;
+    font-size: 30px;
+    padding-right: 50px;
+    margin: 10px;
+    margin-top: -20px;
+}
+.one nav a{
+    text-decoration: none;
+    color: white;
+    padding-left:20px ;
+}
+.one nav a:hover{
+    color:  rgba(89, 163, 102,0.7);
+}
+
+.one div{
+    text-align: center;
+    margin-top: 220px;
+}
+.one div h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+}
+.one div p{
+    color: rgba(89, 163, 102,0.7);
+    font-size: 50px;
+    margin-top: -10px;
+    word-spacing: 20px;
+    font-weight: 100;
+    font-size: bold;
+    letter-spacing: 2px;
+    
+}
+.one div button{
+    background-color: grey;
+    color: white;
+    text-decoration:none ;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 20px 30px;
+    border: none;
+    margin-top:  ;
+    border-radius: 10px;
+}
+
+.one div button:hover{
+    padding: 25px 40px ;
+    transform: scale(1.1);
+    transition: 00.7s ease;
+    background-color: rgba(89, 163, 102,0.7);
+
+}
+
+.two{
+    width: 100%;  
+    min-height:100vh;
+    margin-top: 50px;
+    background-color: rgba(244, 244, 244,0.8);
+}
+
+section .title{
+    display: flex;
+    justify-content: center; 
+    color: black;    
+    font-size: 2.2em;
+    font-weight: 800;
+    padding-top:40px ;
+    margin-bottom: 20px;
+}
+.two p{
+    padding: 30px;
+    text-align: center;
+}
+
+.cards{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+        background-color: #fff;
+        text-align: center;
+        box-shadow: 0 5px 25px rgba(1 1 1/15%);
+        border-radius: 10px;
+        margin: 20px;
+    }
+.card:hover{
+    transform: scale(1.1) ;
+    transition: 00.7s ease;
+
+    }
+    .three{
+        width: 100%;  
+        min-height:100vh;
+        margin-top: -25px;
+        background-color:white;
+    }
+    .three div{
+        text-align: center;
+        padding: 50px;
+    }
+.three img{
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.three p{
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+.four{
+    margin-top: -25px;
+    background-color: rgba(244, 244, 244,0.8) ;
+}
+.four p{
+    text-align: center;
+    padding: 30px;
+}
+
+.five{
+    width: 100%;  
+    min-height:100vh;
+    margin-top: -25px;
+}
+.five div{
+    text-align: center;
+    /* padding-top: 50px; */
+}
+form input{
+    width: 500px;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color:rgba(244, 244, 244,0.8);
+
+}
+form input:hover{
+    background-color: rgba(89, 163, 102,0.7);
+    width: 800px;
+    transform: scale(1.1) ;
+    transition: 00.7s ease;
+}
+
+form textarea{
+    width: 500px;
+    background-color:rgba(244, 244, 244,0.8) ;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 10px;
+    border: none;
+
+    
+}
+
+form textarea:hover{
+    background-color: rgba(89, 163, 102,0.7);
+    width: 800px;
+    transform: scale(1.1) ;
+    transition: 00.7s ease;
+}
+
+.five div button{
+    background-color: grey;
+    color: white;
+    text-decoration:none ;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 20px 30px;
+    border: none;
+    margin-top:  ;
+    border-radius: 10px;
+}
+
+.five div button:hover{
+    padding: 25px 40px ;
+    transform: scale(1.1);
+    transition: 00.7s ease;
+    background-color: rgba(89, 163, 102,0.7);
+    margin-bottom: 50px;
+}
+
+footer{
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+footer p{
+    color: #fff;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+span{
+    font-size: large;
+    color :rgba(89, 163, 102,0.7);
+}
